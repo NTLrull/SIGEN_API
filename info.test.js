@@ -1,6 +1,8 @@
 const request = require('supertest')
 const agent = request('https://sigen.pro/v1')
 
+//Первый тест
+
 describe("api_sigen_info", function() {
     it("Info 3.1", async function() {
       await new Promise(function(resolve, reject) {
